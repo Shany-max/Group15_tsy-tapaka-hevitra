@@ -1,41 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
-    <link rel="stylesheet" href="accueil.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recette du groupe</title>
+    <link rel="stylesheet" href="./accueil.css">
 </head>
 <body>
-<div class="vid">
-    <video autoplay muted loop>
- <source src="./image/boucle pizza.mp4">
-    </video>
-</div>
-   
-
-<div class="contenaire">
-<div class="nos_recette">
-    <a href="">Nos Recette</a>
-</div>
-
-<div class="d_recette">
-    <div class="recette_sucrée">
-        <a href="./menu/menu_sucre.html">Recette Sucrée</a>
-    </div>
     
-    <div class="recette_sallée">
-        <a href="./menu/menu_sale.html">Recette Salée</a>
+<!-- HERO VIDEO -->
+<header class="hero">
+<video controls autoplay loop muted width="600">
+  <source src="boucle%20pizza.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la vidéo.
+</video>
+
+<div class="overlay">
+    <em>
+    <h1>Nos meilleurs recettes</h1>
+    </em>
+    <p>Projet de groupe - L1</p>
+
+<!-- CARTE RECETTE -->
+ <a href="./" class="recipe-card">
+    <div class="card-text">
+        <em>
+        <h2>Recette Salée</h2>
+        </em>
+        <span>Voir la recette</span>
     </div>
+ </a>
+    <br>
+    <br>
+    🍽️
+    <br>
+    <br>
+ <a href="..\Projet6-sucrée\index.html" class="recipe-card">
+    <div class="card-text">
+        <em>
+        <h2>Recette Sucrée</h2>
+        </em>
+        <span>Voir la recette</span>
+    </div>
+ </a>
 </div>
-</div>
-
-<div class="message">
-    <p>Qu'est-ce qu'on mange ?</p>
-</div>
-
-
-    
+ </header>
 </body>
 </html>
